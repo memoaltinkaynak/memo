@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.acount{
+    background-color: #EBEBEB;
+    max-width: 100%;
+    min-height: 40px;
+    padding: 15px; 
+}
+.acount button{
+    font-size: 25px;
+    border: none;
+    background-color: #EBEBEB;
+    float: right;
+    margin: 7px 150px 0px  0px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    color: #636363;
+}
+.acount select{
+    border: none;
+    background-color: #EBEBEB;
+    width: 110px;
+    font-size: 25px;
+    float: right;
+    padding: 7px 0px 7px 0px;
+    margin-right: 10px;
+    cursor: pointer;
+    color: #636363;
+}
+.acount select option{
+    font-size: 20px;
+    color: #636363;
+}
+.acount h6{
+    font-size: 20px;
+    margin: 12px 0px 7px 40px;
+    color: #636363;
+}
+
+
+
+/******************************/
+/******************************/
+/******************************/
+/* Mobile */
+/******************************/
+/******************************/
+/******************************/
+@media screen and (max-width: 936px){
+    .acount button{
+        margin: 7px 50px 0px  0px;
+    }
+}

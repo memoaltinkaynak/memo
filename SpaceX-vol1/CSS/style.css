@@ -1,0 +1,194 @@
+*{
+    box-sizing:border-box;
+}
+a{
+    text-decoration: none;
+    color: #252525;}
+.project{
+    height: 36px;
+    background-color: #EBEBEB;
+    padding-right: 150px;
+}
+#acount{
+    float: right;
+    color: #727272;
+    padding-top: 6px;
+    margin-left: 3px;
+}
+#many{
+    float: right;
+}
+#many1{
+    float: right;
+}
+#dropdownMenuButton{
+    background-color: #EBEBEB;
+    color: #727272;
+    border: 0;
+    margin-left: 9px;
+    height: 35px;
+    list-style: outside;
+}
+#dropdownMenuButton1{
+    background-color: #EBEBEB;
+    color: #727272;
+    border: 0;
+    margin-left: 6px;
+    height: 35px;
+}
+#over{
+    color: #727272;
+    padding-top: 6px;
+    padding-left: 150px;
+}
+#logo h1{
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+}
+.logo{
+    font-size: 60px;
+    color: #363636;
+    font-family: 'Just Another Hand', cursive;
+}
+.logo:hover{
+    color: #363636;
+    text-decoration: none;
+}
+
+#fas1{
+    color: #363636;
+}
+#fas2{
+    color: #363636;
+}
+#fas3{
+    display: none;
+    color: #363636;
+}
+
+header label:hover{
+    cursor: pointer;
+}
+#navbarsExample01{
+    width: 100%;
+}
+#navbarsExample01 ul{
+    padding: 0;
+    margin:0;
+    list-style:none;
+    line-height:normal;
+}
+#navbarsExample01 ul li{
+    list-style:none;
+    height:50px;
+}
+#navbarsExample01 ul li a{
+
+    text-decoration: none;
+    color: #363636;
+    height:30px;
+    padding-top:14px;
+    display:block;
+    letter-spacing:-0.5px;
+    text-transform:uppercase;
+}
+#button1{
+    display: none;
+}
+#searchbox{
+display: none;
+}
+.searchbox-cont{
+    margin: 0 auto;
+}
+.spacex img{
+    height: 100px;
+}
+#shopbtn{
+    background-color: #C7B199;
+}
+#ıntertor{
+    padding-bottom: 27%;
+}
+#ıntertor h2{
+    font-size: 50px;
+}
+#ıntertor button{
+    margin-top: 2%;
+}
+#navbarsExample02{
+    height: 815px;
+}
+/******************************/
+/******************************/
+/******************************/
+/* Mobile */
+/******************************/
+/******************************/
+/******************************/
+@media screen and (max-width: 863px){
+    #acount{
+        font-size: 15px;
+    }
+    #dropdownMenuButton{
+        font-size: 15px;
+        padding-left: 5px;
+    }
+    #dropdownMenuButton1{
+        font-size: 15px;
+    }
+    #over{
+        display: none;
+    }
+    .logo{
+        font-size: 50px;
+    }
+    #button1{
+        display: block;
+    }
+    #fas1 , #fas2{
+        display: none;
+    }
+    #fas3{
+        display: block;
+    }
+    #searchbox{
+        display: block;
+    }
+    #navbarsExample01{
+        padding: 0;
+        margin: 0;
+    }
+    #navbarsExample01 ul{
+        float: left;
+    }
+    #navbarsExample01 ul li {
+        float:none;
+    }
+    #navbarsExample01 ul li a{
+        padding-top:14px;
+        text-transform:uppercase;
+        float: left;
+    }
+    .item img{
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 400px){
+    .project{
+        padding-right: 10px;
+        padding-left: 0;
+    }
+    .logo{
+        font-size: 40px;
+    }
+    #icon img{
+        margin-left:85%;    }
+}
+@media screen and (max-width: 260px){
+    .project {
+        display: none;
+    }
+}

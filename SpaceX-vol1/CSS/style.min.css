@@ -1,0 +1,80 @@
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,700,300,600,600italic,400italic,300italic,700italic&subset=latin,latin-ext);
+body{font-family:'Titillium Web',sans-serif;overflow-x:hidden;color:#777}
+:focus{outline:0}
+button:focus{outline:0!important}
+header .container-fluid,header .fullhead{padding-left:0!important;padding-right:0!important;margin-left:0!important;margin-right:0!important}
+.logo{padding:0 20px;color:#777;text-transform:uppercase}
+.logo:hover{color:#777;text-decoration:none}
+.navbar-default{background-color:transparent;border:0;padding:10px 10px 0;margin-bottom:0;position:absolute;z-index:999}
+.navbar-nav{font-size:16px;color:#222}
+.navbar-nav>li{display:table-cell;padding:20px}
+.navbar-nav>li>a{padding:10px;text-transform:uppercase}
+.navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.active>a:focus,.navbar-default .navbar-nav>.active>a:hover{background-color:transparent;border-bottom:3px solid #777}
+.navbar-fixed-top{background-color:#fff;border-bottom:1px solid #ccc;-webkit-transition:all .5s ease;-moz-transition:all .5s ease;-o-transition:all .5s ease;-moz-box-shadow:1px 1px 1px #ccc;-webkit-box-shadow:1px 1px 1px #ccc;box-shadow:1px 1px 1px #ccc}
+.navbar-fixed-top .navbar-left{font-size:30px}
+.navbar-fixed-top .navbar-nav>li{padding:15px}
+.carousel{position:inherit}
+.carousel-caption{margin-bottom:100px}
+.subscribe form{margin:0;padding:0}
+input[type=email],input[type=text],textarea#message{width:100%;line-height:46px;display:inline-block;font-size:15px;float:none!important;border:1px solid #777;background-color:#fff;color:#1B2432;padding:0 20px;margin-right:10px;margin-bottom:10px}
+.subscribe form button[type=submit],.subscribe form input[type=text],button.red-button[type=submit]{height:50px;line-height:46px;display:inline-block;font-size:15px;float:none!important}
+.subscribe form input[type=text]:focus{border:2px solid #ea6060}
+input[type=email]:focus,input[type=text]:focus,textarea#message:focus{border:1px solid #ea6060}
+.subscribe form input[type=text]{width:33.33333333%;background-color:#fff;color:#1B2432;padding:0 20px;border-top:2px solid #777;border-bottom:2px solid #777;border-left:2px solid #777;border-right:2px solid #777;margin-right:10px;margin-bottom:10px}
+.subscribe button[type=submit],button.red-button[type=submit]{text-align:center;font-weight:400;background-color:#ea6060;color:#fff;padding:0 25px;border:0;vertical-align:top}
+.subscribe button[type=submit]:hover,button.red-button[type=submit]:hover{color:#fff;background-color:#dd3c3c}
+.bigbutton{height:50px;line-height:46px;font-weight:700;min-width:200px;display:inline-block;background-color:#fff;color:#222;padding:0 20px;border:2px solid #222;margin-right:10px;margin-bottom:10px}
+.carousel-inner>.item>a>img,.carousel-inner>.item>img{min-height:600px}
+h3{font-size:35px;font-weight:500;padding:70px 0 10px!important}
+.products ul li:before{content:'';display:inline-block;width:20px;height:20px;-moz-border-radius:15px;-webkit-border-radius:15px;border-radius:15px;background-color:#cdcdcd;margin-right:15px}
+.products .col-sm-7{padding-left:50px;width:40%}
+.clients,.products,.testimonial{padding:50px;border-bottom:1px solid #777}
+.products ul{margin:30px 0;padding:0;list-style:none}
+.products ul li{display:inline-flex;padding:10px 0;width:100%}
+.subscribehead{padding-bottom:30px;border-bottom:1px solid #777}
+.subscribe h3{padding:30px 0 10px}
+.subscribe p{font-weight:300;font-size:15px;padding-bottom:30px}
+.clients .img-circle{margin:40px;margin-top:0}
+.clientsname{font-weight:700;font-size:15px;text-transform:uppercase;margin:0}
+.clientbrand{font-weight:300;font-size:12px}
+.clients ul li:nth-child(2n) .clientcontent{font-weight:300}
+.clients .clientcontent{width:80%;font-style:italic}
+.clients ul li:nth-child(odd){font-weight:600}
+.carousel-indicators .active{background-color:#777}
+.carousel-indicators li{border:1px solid #777}
+.testimonial .carousel-inner{height:auto;width:65%;font-weight:600;margin:0 auto}
+.testimonial .carousel-inner .item{padding:40px}
+.testimonial .carousel-inner .item p:nth-child(odd){font-size:25px}
+.testimonial .carousel-inner .item p:nth-child(2n){font-weight:300;font-size:17px;padding:20px}
+#google-container{position:relative;width:100%;height:400px;background-color:#e7eaf0}
+#cd-google-map{position:relative}
+#cd-google-map address{position:absolute;width:100%;bottom:0;left:0;padding:1em;background-color:rgba(211,104,104,.9);color:#fff;font-size:13px;font-size:.8125rem}
+#cd-zoom-in,#cd-zoom-out{height:32px;width:32px;cursor:pointer;margin-left:10px;background-color:rgba(211,104,104,.9);background-repeat:no-repeat;background-size:32px 64px;background-image:url(../img/cd-icon-controller.svg)}
+.no-touch #cd-zoom-in:hover,.no-touch #cd-zoom-out:hover{background-color:#d36868}
+@media only screen and (min-width:768px){#cd-zoom-in,#cd-zoom-out{margin-left:50px}}
+#cd-zoom-in{background-position:50% 0;margin-top:10px;margin-bottom:1px}
+@media only screen and (min-width:768px){#cd-zoom-in{margin-top:50px}}
+#cd-zoom-out{background-position:50% -32px}
+.contactform{margin-top:50px}
+footer{margin-top:10px;color:#fff;height:100px;background-color:#777}
+footer .copyright{line-height:100px}
+.scroll-top{position:fixed;bottom:0;right:6%;z-index:100;background:0 0;color:#fff;font-size:30px;border-top-left-radius:3px;border-top-right-radius:3px;-webkit-transition:all .5s ease;-moz-transition:all .5s ease;-o-transition:all .5s ease}
+.scroll-top>li>a:focus,.scroll-top>li>a:link,.scroll-top>li>a:visited{color:#777;background-color:transparent}
+.scrollcolor{color:#fff!important;line-height:100px;right:6%;z-index:100;background:0 0;font-size:30px}
+.scrollcolor:focus,.scrollcolor:hover,.scrollcolor:visited{background-color:transparent!important}
+@media (max-width:768px){.navbar-default{margin-bottom:0;position:relative;z-index:999}
+.navbar-nav>li{padding:5px 20px;display:block}
+.navbar-nav>li>a{padding:0;text-transform:uppercase}
+.navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.active>a:focus,.navbar-default .navbar-nav>.active>a:hover{background-color:transparent;border-bottom:0;padding:0}
+h3{padding:70px 0 10px!important}
+.subscribe form input[type=text]{width:50%!important;margin-bottom:10px}
+.clients .col-sm-6{text-align:center}
+.clients img{text-align:center;float:none!important;margin-top:15px!important}
+.clients .clientcontent{width:100%;display:inline-block}
+.products{text-align:center}
+.products img{text-align:center;float:none!important;display:inline-block}
+.products .col-sm-7{width:100%}
+.testimonial{padding:70px;margin:0}
+.testimonial .carousel{padding:20px 0}
+.testimonial .carousel-inner{width:100%}
+.testimonial .carousel-inner .item{padding:0}}
